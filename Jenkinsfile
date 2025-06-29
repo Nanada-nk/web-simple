@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-    git branch: 'master', url: 'https://github.com/Nanada-nk/web-simple.git'
+    git branch: 'main', url: 'https://github.com/Nanada-nk/web-simple.git'
   }
         }
         stage('Build Docker Image') {
